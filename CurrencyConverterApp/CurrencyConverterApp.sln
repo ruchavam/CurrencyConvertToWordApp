@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverterApp", "CurrencyConverterApp.csproj", "{FE11FB31-47E9-4263-9FC4-7210E4D54A3C}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "currency-converter-ui", "..\currency-converter-ui\", "{5438C0A7-935C-4089-921D-3F6856BE4F2C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_61887"
+		Debug.AspNetCompiler.PhysicalPath = "..\currency-converter-ui\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61887\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_61887"
+		Release.AspNetCompiler.PhysicalPath = "..\currency-converter-ui\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61887\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61887"
+		SlnRelativePath = "..\currency-converter-ui\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverterTests", "..\CurrencyConverterTests\CurrencyConverterTests.csproj", "{C32BE9BD-DEDC-4E5A-8F40-67AA9B8669D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE11FB31-47E9-4263-9FC4-7210E4D54A3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE11FB31-47E9-4263-9FC4-7210E4D54A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE11FB31-47E9-4263-9FC4-7210E4D54A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE11FB31-47E9-4263-9FC4-7210E4D54A3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5438C0A7-935C-4089-921D-3F6856BE4F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5438C0A7-935C-4089-921D-3F6856BE4F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5438C0A7-935C-4089-921D-3F6856BE4F2C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5438C0A7-935C-4089-921D-3F6856BE4F2C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C32BE9BD-DEDC-4E5A-8F40-67AA9B8669D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32BE9BD-DEDC-4E5A-8F40-67AA9B8669D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32BE9BD-DEDC-4E5A-8F40-67AA9B8669D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32BE9BD-DEDC-4E5A-8F40-67AA9B8669D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CE958F0-3295-4EB1-AE8B-444753646753}
+	EndGlobalSection
+EndGlobal
